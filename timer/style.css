@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, .setting_time{
+    font-size: 200px;
+    text-align: center;
+}
+
+#setting{
+    text-align: center;
+    color: darkcyan;
+    margin: 0 auto;
+    user-select: none;
+}
+.setting_time{
+    cursor: default;
+}
+
+.timer{
+
+    color: #990055;
+}
+
+.hide{
+    display: none;
+}
+
+#run{
+    font-size: 50px;
+    height: 100px;
+    padding: 0 100px;
+}
