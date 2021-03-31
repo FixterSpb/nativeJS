@@ -59,7 +59,7 @@
     text-align: center;
     color: #990055;
     cursor: default;
-    user-select: none;
+    /*user-select: none;*/
 }
 
 .bn {
