@@ -2,25 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css?ver=0.1.0">
     <title>Таймер</title>
 </head>
 <body>
-    <div class="hide" id="timer">
-        <h1 class="timer">00:00:00</h1>
+    <div class="main">
+        <div id="timer"></div>
+        <input type="checkbox" id="cbInfo" checked>
+        <div class="info" id="box-info">
+            <h2 style="text-align: center">Инструкция</h2>
+            <p>Время настраивается нажатием кнопок мыши на соответствующие числа:</p>
+            <pre>   Левая кнопка увеличивает значение;</pre>
+            <pre>   Правая - уменьшает</pre>
+            <p>Если при нажатии удерживать клавишу <b>Shift</b> - величина будет изменяться на 10</p>
+        </div>
+
+
+        <div class="buttons">
+            <button class="bn" id="run" data-state="ready">Запустить</button>
+            <button class="bn bnInfo" id="info" >?</button>
+        </div>
     </div>
 
-    <div id="setting">
-        <span class="setting_time" id="hours">00</span>
-        <span class="">:</span>
-        <span class="setting_time" id="minutes">00</span>
-        <span class="">:</span>
-        <span class="setting_time" id="seconds">00</span>
-        <br>
-        <button id="run">Запустить</button>
-    </div>
-
-    <script src="main.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
 
