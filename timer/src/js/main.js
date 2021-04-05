@@ -1,6 +1,7 @@
 "use strict";
 
 import Timer from "./Timer.js";
+import "../css/style.css"
 
 const timer = new Timer();
 
